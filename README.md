@@ -8,6 +8,6 @@ Korean Light weight BERT 🍔❌
 |KoBERT(SKT)|  |  |  |  |  |  |  |  |
 |KoBERT(KLUE)|  |  |  |  |  |  |  |  |
 |DistilKoBERT|  |  |  |  |  |  |  |  |
-|**KoLBERT**| **22M** | 89.41 |  |  | 74.25 |  |  |  |
+|**KoLBERT**| **22M** | 89.41 |  | 65.95 | 74.25 | 74.36 | 93.93 |  |
 
 `KoLBERT`: 저는 아직 제 힘의 1/10만 사용하였습니다만..?
