@@ -1,2 +1,15 @@
 # KoLBERT
-Korean Light weight BERT
+Korean Light weight BERT 🍔❌
+
+# Performance
+|| #Param | NSMC<br>(Acc) | Naver NER<br>(F1) | PAWS<br>(Acc) | KorNLI<br>(Acc) | KorSTS<br>(Spearman) | Question Pair<br>(Acc) | KorQuaD (Dev)<br>(EM/F1) |
+|:----:|:----:|:----:|:----:|:----:|:----:|:----:|:----:|:----:|
+|KcBERT-Base| 108M | 89.46 | 84.24 | 67.45 | 73.45 | 76.51 | 93.66 | 60.72 / 84.97 |
+|KoBERT(SKT)|  |  |  |  |  |  |  |  |
+|KoBERT(KLUE)|  |  |  |  |  |  |  |  |
+|DistilKoBERT|  |  |  |  |  |  |  |  |
+|**KoLBERT**| **22M** | 89.41 |  |  |  |  |  |  |
+
+`NOTE`: 아직 **KoLBERT**는 자신의 힘의 1/10만 사용하였다...
+
+
