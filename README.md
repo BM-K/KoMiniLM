@@ -1,6 +1,9 @@
 # KoLBERT
 Korean Light weight BERT 🍔❌
 
+# Usage
+**KoLBERT** will be released as open source.
+
 # Performance
 || #Param | NSMC<br>(Acc) | Naver NER<br>(F1) | PAWS<br>(Acc) | KorNLI<br>(Acc) | KorSTS<br>(Spearman) | Question Pair<br>(Acc) |
 |:----:|:----:|:----:|:----:|:----:|:----:|:----:|:----:|
