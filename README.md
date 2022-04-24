@@ -23,3 +23,4 @@ Korean Light weight BERT 🍔❌
 ## ToDo
 - [ ] An average of 3 runs for each task
 - [ ] Training the entire KoLBERT
+- [ ] Huggingface model porting
