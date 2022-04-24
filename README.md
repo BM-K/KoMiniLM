@@ -1,5 +1,5 @@
 # KoLBERT
-Korean Light weight BERT 🍔❌
+💪 Korean Light weight BERT
 
 # Usage
 **KoLBERT** will be released as open source.
