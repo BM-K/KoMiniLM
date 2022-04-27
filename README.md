@@ -20,13 +20,11 @@
 |DistilKoBERT| 28M | 88.32 | 84.24 | 61.15 | 70.3 | 71.94 | 92.61 | 52.25 / 76.16 |
 |DistilKoBERT| 28M | 88.51 | 84.2 | 61.85 | 70.03 | 71.91 | 92.48 | 53.2 / 76.9 |
 |  |  |  |  |  |  |  |  |  |
-|**KoLBERT**| **23M** | 89.49 | 84.51 | 71.0 | 76.62 | 76.59 | 94.72 | 79.71 / 89.53 |
-|**KoLBERT<sup>†</sup>**| **23M** | 89.46 | 84.38 | 74.35 | 77.16 | 78.49 | 94.06 | 80.57 / 89.95 |
-|**KoLBERT<sup>†</sup>**| **23M** | 89.69 | 84.45 | 74.35 | 76.96 | 78.28 | 94.45 | 80.74 / 90.04 |
+|**KoLBERT<sup>†</sup>**| **23M** | 89.64 | 84.4 | 75.1 | 77.16 | 78.23 | 94.98 | 81.0 / 90.27 |
 
 `KoLBERT`: 저는 아직 제 힘의 절반만 사용했습니다만..?
 
 ## ToDo
-- [ ] An average of 3 runs for each task
+- [X] An average of 3 runs for each task
 - [ ] Training the entire KoLBERT
 - [ ] Huggingface model porting
