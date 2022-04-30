@@ -22,8 +22,6 @@
 |  |  |  |  |  |  |  |  |  |
 |**KoLBERT<sup>†</sup>**| **23M** | 89.64 | 84.4 | 75.1 | 77.16 | 78.23 | 94.98 | 81.0 / 90.27 |
 
-`KoLBERT`: 저는 아직 제 힘의 절반만 사용했습니다만..?
-
 ## ToDo
 - [X] An average of 3 runs for each task
 - [ ] Training the entire KoLBERT
