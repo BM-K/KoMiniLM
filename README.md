@@ -1,11 +1,11 @@
-# KoMINI-BERT
-💪 Korean light weight BERT
+# KoMiniLM
+💪 Korean light weight language model
 
 ## Why
-서비스 측면에서 큰 용량을 갖는 기존 BERT의 한계를 보완하고자 경량화된 한국어 BERT를 공개합니다.
+서비스 측면에서 큰 용량을 갖는 기존 언어 모델의 한계를 보완하고자 경량화된 언어 모델을 공개합니다.
 
 ## Quick tour
-`NOTE`: **KoLBERT** will be released as open source.
+`NOTE`: **KoMiniLM** will be released as open source.
 ```python
 from transformers import AutoTokenizer, AutoModel
 
@@ -33,10 +33,10 @@ Self-Attention Distribution 및 Self-Attention Value-Relation [[Wang et al., 202
 |KoBERT(SKT)| 92M | 89.28±0.42 | 87.54±0.04 | 80.93±0.91 | 78.18±0.45 | 75.98±2.81 | 94.37±0.31  | 51.94±0.60 / <br>79.69±0.66 |
 |DistilKoBERT| 28M | 88.39±0.08 | 84.22±0.01 | 61.74±0.45 | 70.22±0.14 | 72.11±0.27 | 92.65±0.16 | 52.52±0.48 / <br>76.00±0.71 |
 |  |  |  |  |  |  |  |  |  |
-|**KoMINI-BERT<sup>†</sup>**| **-M** | 89.72 | 85.87 | 80.5 | 79.44 | 80.90 | 94.06 | 82.78 / 91.84|
-|**KoMINI-BERT<sup>v2</sup>**| **23M** | 89.68 | 84.83 | 79.2 | 78.00 | 79.04 | 94.98 | 82.66 / 91.62 |
+|**KoMiniLM<sup>†</sup>**| **-M** | 89.72 | 85.87 | 80.5 | 79.44 | 80.90 | 94.06 | 82.78 / 91.84|
+|**KoMiniLM<sup>v2</sup>**| **23M** | 89.68 | 84.83 | 79.2 | 78.00 | 79.04 | 94.98 | 82.66 / 91.62 |
 
 ## ToDo
 - [X] An average of 3 runs for each task
-- [ ] Training the entire KoLBERT
+- [ ] Training the entire KoMiniLM
 - [ ] Huggingface model porting
