@@ -2,7 +2,7 @@
 💪 Korean light weight language model
 
 ## Why
-- 서비스 측면에서 큰 용량 및 낮은 처리 속도를 갖는 기존 언어 모델의 한계를 보완하고자 경량화된 언어 모델을 공개합니다.
+- 서비스 측면에서 큰 용량 및 느린 처리 속도를 갖는 기존 언어 모델의 한계를 보완하고자 경량화된 언어 모델을 공개합니다.
 
 ## Quick tour
 `NOTE`: **KoMiniLM** will be released as open source.
