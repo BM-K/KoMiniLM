@@ -9,6 +9,11 @@
 ```python
 from transformers import AutoTokenizer, AutoModel
 
+# KoMiniLM-68M (68M)
+tokenizer = AutoTokenizer.from_pretrained("BM-K/")
+model = AutoModel.from_pretrained("BM-K/")
+
+# KoMiniLM-23M (23M)
 tokenizer = AutoTokenizer.from_pretrained("BM-K/")
 model = AutoModel.from_pretrained("BM-K/")
 
@@ -24,7 +29,65 @@ outputs = model(**inputs)
 |데이터|뉴스댓글|뉴스기사|
 |:----:|:----:|:----:|
 |크기|10G|10G|
-
+### Config
+- **KoMiniLM-68M**
+```json
+{
+  "architectures": [
+    "BertForPreTraining"
+  ],
+  "attention_probs_dropout_prob": 0.1,
+  "classifier_dropout": null,
+  "hidden_act": "gelu",
+  "hidden_dropout_prob": 0.1,
+  "hidden_size": 768,
+  "initializer_range": 0.02,
+  "intermediate_size": 3072,
+  "layer_norm_eps": 1e-12,
+  "max_position_embeddings": 512,
+  "model_type": "bert",
+  "num_attention_heads": 12,
+  "num_hidden_layers": 6,
+  "output_attentions": true,
+  "pad_token_id": 0,
+  "position_embedding_type": "absolute",
+  "return_dict": false,
+  "torch_dtype": "float32",
+  "transformers_version": "4.13.0",
+  "type_vocab_size": 2,
+  "use_cache": true,
+  "vocab_size": 32000
+}
+```
+- **KoMiniLM-23M**
+```json
+{
+  "architectures": [
+    "BertForPreTraining"
+  ],
+  "attention_probs_dropout_prob": 0.1,
+  "classifier_dropout": null,
+  "hidden_act": "gelu",
+  "hidden_dropout_prob": 0.1,
+  "hidden_size": 384,
+  "initializer_range": 0.02,
+  "intermediate_size": 1536,
+  "layer_norm_eps": 1e-12,
+  "max_position_embeddings": 512,
+  "model_type": "bert",
+  "num_attention_heads": 12,
+  "num_hidden_layers": 6,
+  "output_attentions": true,
+  "pad_token_id": 0,
+  "position_embedding_type": "absolute",
+  "return_dict": false,
+  "torch_dtype": "float32",
+  "transformers_version": "4.13.0",
+  "type_vocab_size": 2,
+  "use_cache": true,
+  "vocab_size": 32000
+}
+```
 ## Performance on subtask
 || #Param | NSMC<br>(Acc) | Naver NER<br>(F1) | PAWS<br>(Acc) | KorNLI<br>(Acc) | KorSTS<br>(Spearman) | Question Pair<br>(Acc) | KorQuaD<br>(Dev)<br>(EM/F1) | 
 |:----:|:----:|:----:|:----:|:----:|:----:|:----:|:----:|:----:|
