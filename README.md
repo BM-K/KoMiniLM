@@ -2,7 +2,7 @@
 💪 Korean Light weight BERT
 
 ## Why
-서비스 측면에서 큰 용량과 느린 계산속도를 갖는 기존 BERT의 한계를 보완하고자 경량화된 한국어 BERT 공개합니다.
+서비스 측면에서 큰 용량과 느린 계산속도를 갖는 기존 BERT의 한계를 보완하고자 경량화된 한국어 BERT를 공개합니다.
 
 ## Quick tour
 `NOTE`: **KoLBERT** will be released as open source.
