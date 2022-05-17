@@ -1,10 +1,31 @@
 # KoLBERT
 💪 Korean Light weight BERT
 
-# Usage
-**KoLBERT** will be released as open source.
+## Why
+서비스 측면에서 큰 용량과 느린 계산속도를 갖는 기존 BERT의 한계를 보완하고자 경량화된 한국어 BERT 공개합니다.
 
-# Performance
+## Quick tour
+`NOTE`: **KoLBERT** will be released as open source.
+```python
+from transformers import AutoTokenizer, AutoModel
+
+tokenizer = AutoTokenizer.from_pretrained("BM-K/")
+model = AutoModel.from_pretrained("BM-K/")
+
+inputs = tokenizer("안녕 세상아!", return_tensors="pt")
+outputs = model(**inputs)
+```
+
+## Pre-training
+`Teacher Model`: [KLUE-BERT(base)](https://github.com/KLUE-benchmark/KLUE)
+### Object
+Self-Attention Distribution 및 Self-Attention Value-Relation [[Wang et al., 2020]](https://arxiv.org/abs/2002.10957)을 교사 모델의 불연속적인 각 층에서 학생 모델로 증류하였습니다.
+### Data set
+|데이터|뉴스댓글|뉴스기사|
+|:----:|:----:|:----:|
+|크기|10G|10G|
+
+## Performance on subtask
 || #Param | NSMC<br>(Acc) | Naver NER<br>(F1) | PAWS<br>(Acc) | KorNLI<br>(Acc) | KorSTS<br>(Spearman) | Question Pair<br>(Acc) | KorQuaD<br>(Dev)<br>(EM/F1) | 
 |:----:|:----:|:----:|:----:|:----:|:----:|:----:|:----:|:----:|
 |KoBERT(KLUE)| 110M | 90.20±0.07 | 87.11±0.05 | 81.36±0.21 | 81.06±0.33 | 82.47±0.14 | 95.03±0.44 | 84.43±0.18 / <br>93.05±0.04 |
