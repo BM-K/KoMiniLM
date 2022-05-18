@@ -23,8 +23,7 @@ outputs = model(**inputs)
 |KoBERT(SKT)| 92M | 89.28±0.42 | 87.54±0.04 | 80.93±0.91 | 78.18±0.45 | 75.98±2.81 | 94.37±0.31  | 51.94±0.60 / <br>79.69±0.66 |
 |DistilKoBERT| 28M | 88.39±0.08 | 84.22±0.01 | 61.74±0.45 | 70.22±0.14 | 72.11±0.27 | 92.65±0.16 | 52.52±0.48 / <br>76.00±0.71 |
 |  |  |  |  |  |  |  |  |  |
-|**KoMiniLM<sup>†</sup>**| **-M** | 89.72 | 85.87 | 80.5 | 79.44 | 80.90 | 94.06 | 82.78 / 91.84|
-|**KoMiniLM<sup>v2</sup>**| **23M** | 89.68 | 84.83 | 79.2 | 78.00 | 79.04 | 94.98 | 82.66 / 91.62 |
+|**KoMiniLM<sup>†</sup>**| **23M** | 89.68 | 84.83 | 79.2 | 78.00 | 79.04 | 94.98 | 82.66 / 91.62 |
 
 - [NSMC](https://github.com/e9t/nsmc) (Naver Sentiment Movie Corpus)
 - [Naver NER](https://github.com/naver/nlp-challenge) (NER task on Naver NLP Challenge 2018)
