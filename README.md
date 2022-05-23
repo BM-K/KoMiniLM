@@ -9,12 +9,13 @@
 ```python
 from transformers import AutoTokenizer, AutoModel
 
-tokenizer = AutoTokenizer.from_pretrained("BM-K/")
-model = AutoModel.from_pretrained("BM-K/")
+tokenizer = AutoTokenizer.from_pretrained("BM-K/KoMiniLM")
+model = AutoModel.from_pretrained("BM-K/KoMiniLM")
 
 inputs = tokenizer("안녕 세상아!", return_tensors="pt")
 outputs = model(**inputs)
 ```
+
 ### Performance on subtask
 || #Param | NSMC<br>(Acc) | Naver NER<br>(F1) | PAWS<br>(Acc) | KorNLI<br>(Acc) | KorSTS<br>(Spearman) | Question Pair<br>(Acc) | KorQuaD<br>(Dev)<br>(EM/F1) | 
 |:----:|:----:|:----:|:----:|:----:|:----:|:----:|:----:|:----:|
@@ -34,6 +35,7 @@ outputs = model(**inputs)
 
 ## Pre-training
 `Teacher Model`: [KLUE-BERT(base)](https://github.com/KLUE-benchmark/KLUE)
+
 ### Object
 - Self-Attention Distribution and Self-Attention Value-Relation [[Wang et al., 2020]](https://arxiv.org/abs/2002.10957) were distilled from each discrete layer of the teacher model to the student model.
 
@@ -41,6 +43,7 @@ outputs = model(**inputs)
 |Data|News comments|News article|
 |:----:|:----:|:----:|
 |size|10G|10G|
+
 ### Config
 - **KoMiniLM-23M**
 ```json
@@ -72,7 +75,15 @@ outputs = model(**inputs)
 }
 ```
 
+## Reference
+- [KLUE BERT](https://github.com/KLUE-benchmark/KLUE)
+- [KcBERT](https://github.com/Beomi/KcBERT)
+- [SKT KoBERT](https://github.com/SKTBrain/KoBERT)
+- [DistilKoBERT](https://github.com/monologg/DistilKoBERT)
+- [lassl](https://github.com/lassl/lassl)
+
+
 ## ToDo
 - [X] An average of 3 runs for each task
-- [ ] Training the entire KoMiniLM
-- [ ] Huggingface model porting
+- [X] Huggingface model porting
+- [ ] Add kowiki data
