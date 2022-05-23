@@ -1,8 +1,8 @@
 # KoMiniLM
-💪 Korean light weight language model
+💪 Korean mini language model
 
 ## Why
-- 서비스 측면에서 큰 용량 및 느린 처리 속도를 갖는 기존 언어 모델의 한계를 보완하고자 경량화된 언어 모델을 공개합니다.
+- We release a light weight language model to address the shortcomings of existing language models in terms of capacity and processing speed.
 
 ## Quick tour
 `NOTE`: **KoMiniLM** will be released as open source.
@@ -35,11 +35,12 @@ outputs = model(**inputs)
 ## Pre-training
 `Teacher Model`: [KLUE-BERT(base)](https://github.com/KLUE-benchmark/KLUE)
 ### Object
-- Self-Attention Distribution 및 Self-Attention Value-Relation [[Wang et al., 2020]](https://arxiv.org/abs/2002.10957)을 교사 모델의 불연속적인 각 층에서 학생 모델로 증류하였습니다.
+- Self-Attention Distribution and Self-Attention Value-Relation [[Wang et al., 2020]](https://arxiv.org/abs/2002.10957) were distilled from each discrete layer of the teacher model to the student model.
+
 ### Data set
-|데이터|뉴스댓글|뉴스기사|
+|Data|News comments|News article|
 |:----:|:----:|:----:|
-|크기|10G|10G|
+|size|10G|10G|
 ### Config
 - **KoMiniLM-23M**
 ```json
