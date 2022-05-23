@@ -5,7 +5,6 @@
 - We release a light weight language model to address the shortcomings of existing language models in terms of capacity and processing speed.
 
 ## Quick tour
-`NOTE`: **KoMiniLM** will be released as open source.
 ```python
 from transformers import AutoTokenizer, AutoModel
 
