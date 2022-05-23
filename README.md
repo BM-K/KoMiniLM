@@ -60,6 +60,10 @@ Self-Attention Distribution and Self-Attention Value-Relation [[Wang et al., 202
 
 ### Performance on subtasks
 - The results of our fine-tuning experiments are an average of 3 runs for each task.
+```
+cd KoMiniLM-Finetune
+bash scripts/run_all_kominilm.sh
+```
 
 || #Param | NSMC<br>(Acc) | Naver NER<br>(F1) | PAWS<br>(Acc) | KorNLI<br>(Acc) | KorSTS<br>(Spearman) | Question Pair<br>(Acc) | KorQuaD<br>(Dev)<br>(EM/F1) | 
 |:----:|:----:|:----:|:----:|:----:|:----:|:----:|:----:|:----:|
