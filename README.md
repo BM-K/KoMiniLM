@@ -1,5 +1,5 @@
 # KoMiniLM
-💪 Korean mini language model
+🐣 Korean mini language model
 
 ## Overview
 Current language models usually consist of hundreds of millions of parameters which brings challenges for fine-tuning and online serving in real-life applications due to latency and capacity constraints. In this project, we release a light weight korean language model to address the aforementioned shortcomings of existing language models.
