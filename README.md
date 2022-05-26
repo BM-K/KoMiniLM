@@ -15,6 +15,10 @@ inputs = tokenizer("안녕 세상아!", return_tensors="pt")
 outputs = model(**inputs)
 ```
 
+## Update history
+** Updates on 2022.05.24 **
+- Release KoMiniLM-bert-23M-v1
+
 ## Pre-training
 `Teacher Model`: [KLUE-BERT(base)](https://github.com/KLUE-benchmark/KLUE)
 
