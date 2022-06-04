@@ -30,7 +30,7 @@ Self-Attention Distribution and Self-Attention Value-Relation [[Wang et al., 202
 |:----:|:----:|:----:|
 |size|10G|10G|
 - Performance can be further improved by adding wiki data to training.
-- The crawling and preprocessing code for the News Article is [here](https://github.com/2unju/DaumNewsCrawler).
+- The crawling and preprocessing code for the *News article* is [here](https://github.com/2unju/DaumNewsCrawler).
 
 ### Config
 - **KoMiniLM-23M**
