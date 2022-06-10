@@ -16,12 +16,12 @@ outputs = model(**inputs)
 ```
 
 ## Update history
-> **Note**<br>
-> <br>** Updates on 2022.05.24 **
-> - Release KoMiniLM-bert-23M-v1
+** Updates on 2022.05.24 **
+- Release KoMiniLM-bert-23M-v1
 
 ## Pre-training
-`Teacher Model`: [KLUE-BERT(base)](https://github.com/KLUE-benchmark/KLUE)
+> **Note**<br>
+> `Teacher Model`: [KLUE-BERT(base)](https://github.com/KLUE-benchmark/KLUE)
 
 ### Object
 Self-Attention Distribution and Self-Attention Value-Relation [[Wang et al., 2020]](https://arxiv.org/abs/2002.10957) were distilled from each discrete layer of the teacher model to the student model. Wang et al. distilled in the last layer of the transformer, but that was not the case in this project.
