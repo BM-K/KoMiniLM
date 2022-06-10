@@ -16,8 +16,9 @@ outputs = model(**inputs)
 ```
 
 ## Update history
-** Updates on 2022.05.24 **
-- Release KoMiniLM-bert-23M-v1
+> **Note**<br>
+> <br>** Updates on 2022.05.24 **
+> - Release KoMiniLM-bert-23M-v1
 
 ## Pre-training
 `Teacher Model`: [KLUE-BERT(base)](https://github.com/KLUE-benchmark/KLUE)
