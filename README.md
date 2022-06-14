@@ -87,6 +87,8 @@ bash scripts/run_all_kominilm.sh
 - [Question Pair](https://github.com/songys/Question_pair) (Paired Question)
 - [KorQuAD](https://korquad.github.io/) (The Korean Question Answering Dataset)
 
+<img src = "https://user-images.githubusercontent.com/55969260/173530123-6f3ae0a0-fdba-4592-8e2a-4422eb0561a9.png"> <br>
+
 ### User Contributed Examples
 - 
 
@@ -101,4 +103,3 @@ bash scripts/run_all_kominilm.sh
 ## ToDo
 - [X] An average of 3 runs for each task
 - [X] Huggingface model porting
-- [ ] Add graph
