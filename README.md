@@ -88,7 +88,7 @@ bash scripts/run_all_kominilm.sh
 - [Question Pair](https://github.com/songys/Question_pair) (Paired Question)
 - [KorQuAD](https://korquad.github.io/) (The Korean Question Answering Dataset)
 
-<img src = "https://user-images.githubusercontent.com/55969260/173530123-6f3ae0a0-fdba-4592-8e2a-4422eb0561a9.png"> <br>
+<img src = "https://user-images.githubusercontent.com/55969260/174229747-279122dc-9d27-4da9-a6e7-f9f1fe1651f7.png"> <br>
 
 ### User Contributed Examples
 - 
