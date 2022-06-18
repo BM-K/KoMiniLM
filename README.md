@@ -25,7 +25,7 @@ outputs = model(**inputs)
 ### Object
 Self-Attention Distribution and Self-Attention Value-Relation [[Wang et al., 2020]](https://arxiv.org/abs/2002.10957) were distilled from each discrete layer of the teacher model to the student model. Wang et al. distilled in the last layer of the transformer, but that was not the case in this project.
 
-### Data set
+### Data sets
 |Data|News comments|News article|
 |:----:|:----:|:----:|
 |size|10G|10G|
