@@ -8,7 +8,7 @@ Current language models usually consist of hundreds of millions of parameters wh
 ```python
 from transformers import AutoTokenizer, AutoModel
 
-tokenizer = AutoTokenizer.from_pretrained("BM-K/KoMiniLM")
+tokenizer = AutoTokenizer.from_pretrained("BM-K/KoMiniLM") # 23M model
 model = AutoModel.from_pretrained("BM-K/KoMiniLM")
 
 inputs = tokenizer("안녕 세상아!", return_tensors="pt")
@@ -16,8 +16,11 @@ outputs = model(**inputs)
 ```
 
 ## Update history
+** Updates on 2022.06.20 **
+- Release KoMiniLM-bert-68M
+
 ** Updates on 2022.05.24 **
-- Release KoMiniLM-bert-23M-v1
+- Release KoMiniLM-bert-23M
 
 ## Pre-training
 `Teacher Model`: [KLUE-BERT(base)](https://github.com/KLUE-benchmark/KLUE)
@@ -103,4 +106,3 @@ bash scripts/run_all_kominilm.sh
 
 ## ToDo
 - [X] An average of 3 runs for each task
-- [ ] Releasing KoMiniLM-68M
