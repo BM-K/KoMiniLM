@@ -103,5 +103,4 @@ bash scripts/run_all_kominilm.sh
 
 ## ToDo
 - [X] An average of 3 runs for each task
-- [X] Huggingface model porting
 - [ ] Releasing KoMiniLM-68M
