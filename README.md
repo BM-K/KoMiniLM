@@ -67,6 +67,37 @@ Self-Attention Distribution and Self-Attention Value-Relation [[Wang et al., 202
 }
 ```
 
+- **KoMiniLM-68M**
+```json
+{
+  "architectures": [
+    "BertForPreTraining"
+  ],
+  "attention_probs_dropout_prob": 0.1,
+  "classifier_dropout": null,
+  "hidden_act": "gelu",
+  "hidden_dropout_prob": 0.1,
+  "hidden_size": 768,
+  "initializer_range": 0.02,
+  "intermediate_size": 3072,
+  "layer_norm_eps": 1e-12,
+  "max_position_embeddings": 512,
+  "model_type": "bert",
+  "num_attention_heads": 12,
+  "num_hidden_layers": 6,
+  "output_attentions": true,
+  "pad_token_id": 0,
+  "position_embedding_type": "absolute",
+  "return_dict": false,
+  "torch_dtype": "float32",
+  "transformers_version": "4.13.0",
+  "type_vocab_size": 2,
+  "use_cache": true,
+  "vocab_size": 32000
+}
+
+```
+
 ### Performance on subtasks
 - The results of our fine-tuning experiments are an average of 3 runs for each task.
 ```
