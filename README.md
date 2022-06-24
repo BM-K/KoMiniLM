@@ -133,7 +133,3 @@ bash scripts/run_all_kominilm.sh
 - [SKT KoBERT](https://github.com/SKTBrain/KoBERT)
 - [DistilKoBERT](https://github.com/monologg/DistilKoBERT)
 - [lassl](https://github.com/lassl/lassl)
-
-
-## ToDo
-- [X] An average of 3 runs for each task
