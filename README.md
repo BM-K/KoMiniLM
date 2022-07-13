@@ -124,9 +124,6 @@ bash scripts/run_all_kominilm.sh
 
 <img src = "https://user-images.githubusercontent.com/55969260/174229747-279122dc-9d27-4da9-a6e7-f9f1fe1651f7.png"> <br>
 
-### User Contributed Examples
-- 
-
 ## Reference
 - [KLUE BERT](https://github.com/KLUE-benchmark/KLUE)
 - [KcBERT](https://github.com/Beomi/KcBERT)
