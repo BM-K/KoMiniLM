@@ -37,7 +37,7 @@ Self-Attention Distribution and Self-Attention Value-Relation [[Wang et al., 202
 > - The crawling and preprocessing code for the *News article* is [here](https://github.com/2unju/DaumNewsCrawler).
 
 ### Config
-- **KoMiniLM-23M**
+- [**KoMiniLM-23M**](https://huggingface.co/BM-K/KoMiniLM)
 ```json
 {
   "architectures": [
@@ -67,7 +67,7 @@ Self-Attention Distribution and Self-Attention Value-Relation [[Wang et al., 202
 }
 ```
 
-- **KoMiniLM-68M**
+- [**KoMiniLM-68M**](https://huggingface.co/BM-K/KoMiniLM-68M)
 ```json
 {
   "architectures": [
