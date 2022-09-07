@@ -124,6 +124,11 @@ bash scripts/run_all_kominilm.sh
 
 <img src = "https://user-images.githubusercontent.com/55969260/174229747-279122dc-9d27-4da9-a6e7-f9f1fe1651f7.png"> <br>
 
+## License
+This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International License</a>.
+
+<a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-sa/4.0/88x31.png" /></a><br />
+
 ## Reference
 - [KLUE BERT](https://github.com/KLUE-benchmark/KLUE)
 - [KcBERT](https://github.com/Beomi/KcBERT)
